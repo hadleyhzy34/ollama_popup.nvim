@@ -16,6 +16,10 @@ add below code to `lazy.lua`:
 },
 ```
 
+## Demo
+
+![demo](./assets/demo.png)
+
 ## key setup
 
 ```lua
