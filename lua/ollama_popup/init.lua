@@ -27,7 +27,7 @@ local function query_ollama_api(selected_code, callback)
 		messages = {
 			{
 				role = "user",
-				content = "Please provide language tutorial on this selected sentence, provide explanation for words that are at n4 level in this sentence using format like this example eat::食べる(たべる)\n"
+				content = "Please provide explanation for words that are at n4 level in this sentence using format like this example eat::食べる(たべる)\n"
 					.. selected_code,
 			},
 		},
